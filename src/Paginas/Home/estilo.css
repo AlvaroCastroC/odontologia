@@ -1,0 +1,175 @@
+/* Banner */
+
+
+.banner {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(26, 26, 75);
+}
+
+.conteudo-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-banner {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.titulo-banner h2 {
+    margin: 50px 0 20px 0; 
+    color: #daca3d; 
+}
+
+span {
+    font-weight: 600;
+}
+
+.titulo-banner p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.listas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.listas ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 35px;
+    width: calc(100%  / 2);
+}
+
+.listas ul li {
+    color: #ebe9e9;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.listas ul li:before {
+    content: url("../../../public/assets/dente.png");
+}
+
+/* Conteudo principal */
+
+
+.secao-principal {
+    width: 100%;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal h2 {
+    margin: 30px 0;
+}
+
+.titulo-principal img {
+    width: 100%;
+}
+
+.descricao-principal {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.descricao-principal div {
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.descricao-principal div h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.descricao-principal div p {
+    font-size: 15px;
+}
+
+/* secao comentario */
+
+
+.secao-comentarios {
+    width: 100%;
+
+}
+
+.container-comentarios {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.container-comentarios div {
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.container-comentarios div p:first-of-type {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.container-comentarios div p {
+    text-align: justify;
+}
+
+.container-comentarios img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.botao {
+   margin: 50px auto;
+   padding: 5px 0;
+   text-align: center;
+   width: 200px;
+   height: 40px;
+   background-color: rgb(26, 26, 75);
+}
+
+.opcao-home {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.opcao-home:hover {
+    color: #e9d630;
+}

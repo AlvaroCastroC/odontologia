@@ -1,0 +1,13 @@
+footer{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(26, 26, 75);
+}
+
+footer .rodape {
+    padding: 5px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
