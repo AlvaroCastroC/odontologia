@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/odontologia/static/css/main.6f6654be.css",
+    "main.js": "/odontologia/static/js/main.ec5643bd.js",
+    "static/js/787.ae220218.chunk.js": "/odontologia/static/js/787.ae220218.chunk.js",
+    "index.html": "/odontologia/index.html",
+    "main.6f6654be.css.map": "/odontologia/static/css/main.6f6654be.css.map",
+    "main.ec5643bd.js.map": "/odontologia/static/js/main.ec5643bd.js.map",
+    "787.ae220218.chunk.js.map": "/odontologia/static/js/787.ae220218.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f6654be.css",
+    "static/js/main.ec5643bd.js"
+  ]
+}
